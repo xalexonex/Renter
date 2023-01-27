@@ -80,7 +80,7 @@
             this.btnGitHub.UseVisualStyleBackColor = true;
             this.btnGitHub.Click += new System.EventHandler(this.btnGitHub_Click);
             // 
-            // loginForm
+            // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -91,8 +91,9 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "loginForm";
+            this.Name = "LoginForm";
             this.Text = "Аренда квартиры";
+            this.Load += new System.EventHandler(this.LoginForm_Load);
             this.groupLoginButtons.ResumeLayout(false);
             this.groupLoginButtons.PerformLayout();
             this.ResumeLayout(false);
